@@ -5,4 +5,4 @@ def fact(x):
         return x * fact(x - 1)
 
 
-print(f'{fact(8) = }')
+print(f'{fact(7) = }')

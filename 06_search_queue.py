@@ -25,7 +25,8 @@ def breadth_first_search(graph):
                 print(person + " is а mango seller!")  # Yes, it's a mango seller
                 return True
             else:
-                search_queue += graph[person]  # No, it is not. All the friends of this person are added to the search queue
+                search_queue += graph[
+                    person]  # No, it is not. All the friends of this person are added to the search queue
                 searched.append(person)  # The person is marked as already verified
 
     return False  # If the execution has reached this line, then there is no mango seller in the queue
